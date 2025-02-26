@@ -1,0 +1,7 @@
+[project]
+name = "upsample-zarr"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["click>=8", "joblib>=1", "zarr<3"]
