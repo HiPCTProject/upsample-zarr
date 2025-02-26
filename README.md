@@ -9,7 +9,7 @@ A simple command line tool to upsample a Zarr array.
 - Never writes empty chunks
 - Writes each chunk of the output Zarr array in parallel
 
-If you want to downsample a lot (e.g., by 32), it's recommended to do this in stages.
+If you want to downsample a lot (e.g., by 32), it's recommended to do this in stages to avoid excessive memory consumption.
 
 ## Using
 
